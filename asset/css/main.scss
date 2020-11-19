@@ -1,0 +1,52 @@
+body {
+  background-image: url("../image/home_cover.jpg");
+  background-size: cover;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+h2 {
+  font-family: cursive;
+}
+.task-card.text-center {
+  margin-top: 50px;
+}
+.btn-primary {
+  color: #fff;
+  height: 30px !important;
+  background-color: #4DA4F5 !important;
+  border-color: #4DA4F5 !important;
+  border-radius: 20px !important;
+  margin-right: 5px;
+  line-height: 0px;
+}
+.task-list.text-center.mx-auto {
+  background: #7EB77D;
+  width: 350px;
+  height: 450px;
+  overflow: auto;
+  margin-top: 50px;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+input[type="text"] {
+  border: none;
+}
+button.check-btn {
+  border: none;
+  background-color: lightgray;
+}
+i.fas.fa-check {
+  color: darkcyan;
+}
+a.task_name {
+  background-color: white;
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
